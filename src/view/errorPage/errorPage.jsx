@@ -7,10 +7,10 @@ function NotFound () {
         <div className="wscn-http404-container">
         <div className="wscn-http404">
             <div className="pic-404">
-                <img className="pic-404__parent" src="/img/404_images/404.png" alt="404"/>
-                <img className="pic-404__child left" src="/img//404_images/404_cloud.png" alt="404"/>
-                <img className="pic-404__child mid" src="/img//404_images/404_cloud.png" alt="404"/>
-                <img className="pic-404__child right" src="/img//404_images/404_cloud.png" alt="404"/>
+                <img className="pic-404__parent" src={import.meta.env.BASE_URL+'img/404_images/404.png'} alt="404"/>
+                <img className="pic-404__child left" src={import.meta.env.BASE_URL+'img/404_images/404_cloud.png'} alt="404"/>
+                <img className="pic-404__child mid" src={import.meta.env.BASE_URL+'img/404_images/404_cloud.png'} alt="404"/>
+                <img className="pic-404__child right" src={import.meta.env.BASE_URL+'img/404_images/404_cloud.png'} alt="404"/>
             </div>
             <div className="bullshit">
                 <div className="bullshit__oops">OOPS!</div>

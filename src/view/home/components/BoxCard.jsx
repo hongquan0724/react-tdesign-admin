@@ -11,7 +11,7 @@ const BoxCard = () => {
         {name:'tdesign-react',value:100},
     ]
     const cardcontent  = <div className="card-content">
-        <PanThumb className="panThumb" image={'/img/App/avatar.gif'} />
+        <PanThumb className="panThumb" image={import.meta.env.BASE_URL+'img/App/avatar.gif'} />
         {progresslist.map((m,i)=> {
           return <div className="progress-item" key={m.name+i}>
               <span>{m.name}</span>
@@ -31,7 +31,7 @@ const BoxCard = () => {
             className="box-card-container"
             header={
                 <div className="box-card-header">
-                    <img src="/img/home/home_card_bg.png"/>
+                    <img src={import.meta.env.BASE_URL+'img/home/home_card_bg.png'} />
                 </div>
             }
         >

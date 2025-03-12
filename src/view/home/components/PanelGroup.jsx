@@ -15,7 +15,7 @@ const PanelGroup = ({handleSetLineChartData}) => {
                 <Col xs={12} sm={6} lg={3} >
                     <div className="card-panel" onClick={(e)=>cardClick(e,'newVisitis')}>
                         <div className="card-panel-icon-wrapper icon-people">
-                            <img className="svg-icon" src="/img/svg/peoples.svg" />
+                            <img className="svg-icon" src={import.meta.env.BASE_URL+'img/svg/peoples.svg'} />
                         </div>
                         <div className="card-panel-description">
                             <div className="card-panel-text">
@@ -30,7 +30,7 @@ const PanelGroup = ({handleSetLineChartData}) => {
                 <Col xs={12} sm={6} lg={3}>
                     <div className="card-panel" onClick={(e)=>cardClick(e,'messages')}>
                         <div className="card-panel-icon-wrapper icon-message">
-                            <img className="svg-icon" src="/img/svg/message.svg"/>
+                            <img className="svg-icon" src={import.meta.env.BASE_URL+'img/svg/message.svg'}/>
                         </div>
                         <div className="card-panel-description">
                             <div className="card-panel-text">
@@ -43,7 +43,7 @@ const PanelGroup = ({handleSetLineChartData}) => {
                 <Col xs={12} sm={6} lg={3}>
                     <div className="card-panel" onClick={(e)=>cardClick(e,'purchases')}>
                         <div className="card-panel-icon-wrapper icon-people">
-                            <img className="svg-icon" src="/img/svg/money.svg" />
+                            <img className="svg-icon" src={import.meta.env.BASE_URL+'img/svg/money.svg'} />
                         </div>
                         <div className="card-panel-description">
                             <div className="card-panel-text">
@@ -58,7 +58,7 @@ const PanelGroup = ({handleSetLineChartData}) => {
                 <Col xs={12} sm={6} lg={3}>
                     <div className="card-panel" onClick={(e) => cardClick(e, 'shoppings')}>
                         <div className="card-panel-icon-wrapper icon-people">
-                            <img className="svg-icon" src="/img/svg/shopping.svg"/>
+                            <img className="svg-icon" src={import.meta.env.BASE_URL+'img/svg/shopping.svg'}/>
                         </div>
                         <div className="card-panel-description">
                             <div className="card-panel-text">

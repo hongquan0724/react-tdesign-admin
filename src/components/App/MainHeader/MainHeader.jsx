@@ -55,7 +55,7 @@ function MainHeader () {
                     popupProps={{overlayInnerStyle: {padding: 4}}}
                 >
                     <div className="user-avatar-container">
-                        <img className="user-avatar" src="/img/App/avatar.gif"/>
+                        <img className="user-avatar" src={import.meta.env.BASE_URL+'img/App/avatar.gif'}/>
                     </div>
                 </Dropdown>
 
