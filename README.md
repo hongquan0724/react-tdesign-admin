@@ -1,6 +1,6 @@
 ## 简介
 
-react-desgin-admin 是一个后台前端解决方案，它基于 [react](https://github.com/facebook/react) 和 [tdesign-ui](https://github.com/Tencent/tdesign)和[vite](https://github.com/vitejs/vite)实现。它使用了react18的前端技术栈，本项目灵感来自于[vue-element-admin](https://panjiachen.github.io/vue-element-admin),希望能帮助到你。
+react-desgin-admin 是一个后台前端解决方案，它基于 [react](https://github.com/facebook/react) 和 [tdesign-ui](https://github.com/Tencent/tdesign)和[vite](https://github.com/vitejs/vite)实现。它使用了react18+e的前端技术栈，本项目灵感来自于[vue-element-admin](https://panjiachen.github.io/vue-element-admin),希望能帮助到你。
 
 
 # React + Vite + TDesign
